@@ -6,8 +6,9 @@ services:
     user: root
     restart: always
     ports:
-      - 443:8443
+      - 8443:8443
       - 8079:8079
     environment:
       - SINGLE_USER_CREDENTIALS_USERNAME=eventify
       - SINGLE_USER_CREDENTIALS_PASSWORD=123456789012
+      - NIFI_WEB_HTTP_PORT=8080
