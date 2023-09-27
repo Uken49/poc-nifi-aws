@@ -11,9 +11,3 @@ services:
     environment:
       - SINGLE_USER_CREDENTIALS_USERNAME=eventify
       - SINGLE_USER_CREDENTIALS_PASSWORD=123456789012
-      - NIFI_WEB_HTTP_PORT=8080
-    volumes:
-      - nifi_data:/home/nifi
-volumes:
-  nifi_data:
-    external: true
