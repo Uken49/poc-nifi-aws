@@ -11,6 +11,6 @@ sudo systemctl enable docker
 git clone https://github.com/Uken49/poc-nifi-aws.git
 cd poc-nifi-aws/nifi-eventify-adapter
 
-docker-compose up
+sudo docker-compose up
 
 cd ../..
